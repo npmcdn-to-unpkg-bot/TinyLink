@@ -1,0 +1,39 @@
+doctype
+html(ng-app="app")
+  head
+    title App
+    
+    meta(content="text/html;charset=utf-8" http-equiv="Content-Type")
+    meta(content="utf-8" http-equiv="encoding")
+    
+    //- Thirdparty stylesheet
+    // link(rel="stylesheet" href="#")
+    
+    //- Main stylesheet
+    link(rel="stylesheet" href="assets/css/main.css")
+      
+  body
+    ui-view
+        
+    //- Core
+    script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js")
+    script(src="//npmcdn.com/angular-ui-router/release/angular-ui-router.min.js")
+    script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.10/angular-animate.js")
+    
+    //- Thirdparty JS framworks
+    // script(src="assets/js/#.js")
+    
+    //- Firebase
+    script(src="https://cdn.firebase.com/js/client/2.4.2/firebase.js")
+    script(src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js")
+    
+    //- App
+    script(src="app/min/app-min.js")
+    script(src="app/min/app.route-min.js")
+      
+    //- sample
+    script(src="app/components/sample/min/sample.module-min.js")
+    script(src="app/components/sample/min/sample.ctrl-min.js")
+    script(src="app/components/sample/min/sample.directive-min.js")
+    script(src="app/components/sample/min/sample.service-min.js")
+    script(src="app/components/sample/min/sample.router-min.js")
