@@ -1,0 +1,1 @@
+!function(){"use strict";function e(){var e={};return e}angular.module("app.sample").factory("sampleService",e),e.$inject=[]}();

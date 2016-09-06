@@ -1,0 +1,1 @@
+!function(){"use strict";function e(e,l){e.state("sample",{url:"/sample",templateUrl:"app/components/sample/sample.tpl.html",controller:"sampleCtrl",controllerAs:"vm"})}angular.module("app.sample").config(e),e.$inject=["$stateProvider","$urlRouterProvider"]}();

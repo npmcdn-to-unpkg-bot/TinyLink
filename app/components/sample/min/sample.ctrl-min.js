@@ -1,0 +1,1 @@
+!function(){"use strict";function t(){var t=this}angular.module("app.sample").controller("sampleCtrl",t),t.$inject=[]}();

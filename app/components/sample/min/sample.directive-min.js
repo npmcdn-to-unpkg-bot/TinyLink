@@ -1,0 +1,1 @@
+!function(){"use strict";function e(){return{templateUrl:"",restrict:"",controller:"",controllerAs:"vm",scope:{}}}angular.module("app.sample").directive("sampleDirective",e)}();
